@@ -2,10 +2,6 @@ import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import { ThemeProvider } from "@/components/theme/theme-provider"
-import { AuthProvider } from "@/components/auth/auth-provider"
-import { I18nProvider } from "@/components/i18n/i18n-provider"
-import { Footer } from "@/components/layout/footer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -60,7 +56,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    generator: 'v0.dev'
+  generator: "Next.js",
 }
 
 export default function RootLayout({
@@ -70,18 +66,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <AuthProvider>
-            <I18nProvider>
-              <div className="min-h-screen bg-gradient-to-br from-[#1e084a] to-[#461c5a] text-white">
-                {children}
-                <Footer />
-              </div>
-            </I18nProvider>
-          </AuthProvider>
-        </ThemeProvider>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
