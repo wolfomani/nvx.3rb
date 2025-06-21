@@ -25,3 +25,39 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Sensitive environment files
+.env
+.env.local
+.env.production
+.env.staging
+fix-env.sh
+*-env.sh
+
+# Sensitive scripts
+deploy-safe.sh
+fix-env-secure.sh
+
+# Sensitive environment files
+.env
+.env.local
+.env.production
+.env.staging
+fix-env.sh
+*-env.sh
+
+# Sensitive scripts
+deploy-safe.sh
+fix-env-secure.sh
+
+# Sensitive environment files
+.env
+.env.local
+.env.production
+.env.staging
+fix-env.sh
+*-env.sh
+
+# Sensitive scripts
+deploy-safe.sh
+fix-env-secure.sh

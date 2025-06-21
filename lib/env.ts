@@ -1,4 +1,3 @@
-// Environment variable validation
 export const env = {
   // Database
   DATABASE_URL: process.env.DATABASE_URL || process.env.POSTGRES_URL,

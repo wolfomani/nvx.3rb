@@ -1,8 +1,3 @@
-/**
- * Comprehensive API Key and Service Testing Script
- * Updated with correct API endpoints and enhanced testing
- */
-
 import { neon } from "@neondatabase/serverless"
 
 // Test configuration
