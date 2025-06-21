@@ -38,7 +38,7 @@ A comprehensive Next.js 14 AI-powered web platform with multi-provider integrati
 
 1. **Clone the repository:**
    \`\`\`bash
-   git clone https://github.com/yourusername/dev-3db-platform.git
+   git clone [https://github.com/yourusername/dev-3db-platform.git](https://github.com/wolfomani/nvx.3rb.git)
    cd dev-3db-platform
    \`\`\`
 
